@@ -1,0 +1,103 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.kotak{
+  width: 610px;
+  height: 329px;
+  border-radius: 30px;
+  background-color: #DBDBDB;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+}
+.gambar-detektif{
+    width: 219px;
+    height: 219px;
+    margin-top: -150px;
+    position: relative;
+}
+.flex1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1px;
+}
+.flex2{
+    display: flex;
+    justify-content: center;
+    gap: 29px;
+    align-items: center;
+    flex-direction: row;
+}
+
+.deskripsi{
+    width: 475px;
+    height: 56px;
+    border-radius: 20px;
+    background-color: #FEEEE2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: -5px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 120px;
+}
+.title{
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.text-deskripsi{
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 77px;
+    margin-right: 85px;
+}
+.button-iya{
+    width: 157px;
+    height: 41px;
+    background-color: #6FD240;
+    border: none;
+    border-radius: 12px;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: -80px;
+}
+.button-iya:hover{
+    opacity: 0.9;
+    transform: scale(1.05);
+  }
+.button-tidak{
+    width: 157px;
+    height: 41px;
+    background-color: #E12E2E;
+    border: none;
+    border-radius: 12px;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: -80px;
+    cursor: pointer;
+}
+.button-tidak:hover{
+    opacity: 0.9;
+    transform: scale(1.05);
+  }
